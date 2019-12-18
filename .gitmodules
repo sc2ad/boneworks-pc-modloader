@@ -1,0 +1,3 @@
+[submodule "winhttp-doorstop"]
+	path = Doorstop
+	url = https://github.com/sc2ad/winhttp-doorstop
