@@ -13,6 +13,7 @@
 // and load the mods in il2cpp_init.
 MODLOADER_API int load(void)
 {
+	SetCurrentDirectory(L"BONEWORKS");
 	if (!CreateDirectory(L"Logs/", NULL) && ERROR_ALREADY_EXISTS != GetLastError())
 	{
 		MessageBoxW(NULL, L"Could not create Logs/ directory!", L"Could not create Logs directory!'",
